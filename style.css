@@ -2,7 +2,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 4px;
+    margin: 15px;
 }
 
 .header-logo {
@@ -25,26 +25,32 @@ header {
     color: #0c0c86;
 }
 
-.top {
-    width: 100%;
-    height: 793.75px;
-    background: url(img/firstview.jpeg) no-repeat;
-    background-size: 50%;
-    background-position: top 100px right 0;
+.main-container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-top: 100px;
     position: relative;
 }
 
-.top-text {
+.main-right {
+    height: 380px;
+    width: 50%;
+    background-image: url(img/firstview.jpeg);
+    background-size: cover;
+    color: #fff;
+}
+
+.main-left {
+    width: 70%;
+    border-bottom: solid 180px #0c0c86;
     position: absolute;
-    top: 300px;
-    border-bottom: solid 200px #0c0c86;
-    box-sizing: border-box;
-    width: 75%;
+    top: 65%;
+    left: 0;
     z-index: -1;
 }
 
-.top-text p {
-    font-size: 60px;
+.main-left-text {
+    font-size: 50px;
     line-height: 1em;
 }
-
