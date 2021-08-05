@@ -32,7 +32,6 @@ header {
     background-size: 50%;
     background-position: top 100px right 0;
     position: relative;
-    z-index: 100;
 }
 
 .top-text {
